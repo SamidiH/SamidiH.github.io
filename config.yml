@@ -144,15 +144,18 @@ params:
   profileMode:
     enabled: true
     title: Hello there
+    subtitle: I am a cyber security student 
     imageUrl: "pexels-mladen-janic-137412-27878979.jpg"
     imageTitle: my image
-    # imageWidth: 120
-    # imageHeight: 120
+    # imageWidth: 130
+    # imageHeight: 130
     buttons:
       - name: Archives
         url: archives
       - name: Tags
         url: tags
+      - name: Kolars
+        url: Kolars
 
   homeInfoParams:
     Title: "PaperMod's Demo"
@@ -172,7 +175,7 @@ params:
     - name: Discord
       title: Join discord community
       url: "https://discord.gg/ahpmTvhVmp"
-    - name: X
+    - name: Youtube
       title: Share PaperMod on X/Twitter
       url: "https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/adityatelange/hugo-PaperMod&hashtags=Hugo,PaperMod"
     - name: KoFi

@@ -1,3 +1,22 @@
 {{- /* Footer custom content area start */ -}}
 {{- /*     Insert any custom code web-analytics, resources, etc. here */ -}}
 {{- /* Footer custom content area end */ -}}
+
+
+
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        VANTA.BIRDS({
+            el: "body", // This targets the entire background
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            // Match PaperMod's background color if you want a seamless look
+            backgroundColor: 0xffffff 
+        })
+    });
+</script>

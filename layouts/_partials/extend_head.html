@@ -2,3 +2,19 @@
 {{- /*     Insert any custom code (web-analytics, resources, etc.) - it will appear in the <head></head> section of every page. */ -}}
 {{- /*     Can be overwritten by partial with the same name in the global layouts. */ -}}
 {{- /* Head custom content area end */ -}}
+
+
+
+
+<script src="three.r134.min.js"></script>
+<script src="vanta.halo.min.js"></script>
+<script>
+VANTA.HALO({
+  el: "#vanta-effect",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00
+})
+</script>
